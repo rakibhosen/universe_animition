@@ -1,0 +1,57 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    universe
+Version:    1.0
+Last change:    24/03/17 [fixed Float bug, vf]
+Author Name: Rakib
+Primary use:    Animation
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2.
+-------------------------------------------------------------------*/
+html,body{
+	height: 100%;
+	width: 100%;
+
+}
+#universe{
+background:black;
+background:-webkit-radial-gradient(#555,#000);
+background:-moz-radial-gradient(#555,#000);
+background:-o-radial-gradient(#555,#000);
+background:radial-gradient(#555,#000);
+}
+
+#earth-orbit{
+
+
+}
+
+
+/*
+==========================================
+    Reset Css
+==========================================
+*/
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
